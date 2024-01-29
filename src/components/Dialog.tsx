@@ -1,14 +1,14 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 function Dialog() {
   useEffect(() => {
-    (document.getElementById("dialog") as HTMLDialogElement)?.showModal();
+    (document.getElementById('dialog') as HTMLDialogElement)?.showModal();
   }, []);
   return (
     <>
       <dialog
         id="dialog"
-        className=" bg-white dark:bg-gray-950 text-gray-950 dark:text-white border rounded-xl -translate-y-52 backdrop:bg-gray-800 backdrop:bg-opacity-95 transition duration-700"
+        className=" -translate-y-52 rounded-xl border bg-white text-gray-950 transition duration-700 backdrop:bg-gray-800 backdrop:bg-opacity-95 dark:bg-gray-950 dark:text-white"
       >
         <p>Greetings, click OK to close me!</p>
         <form method="dialog">
