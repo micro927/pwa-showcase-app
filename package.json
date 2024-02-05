@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 5555",
+    "dev": "vite --host --port 5555",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint-staged": "lint-staged",
@@ -43,6 +43,7 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
-    "vite": "^4.5.2"
+    "vite": "^4.5.2",
+    "vite-plugin-pwa": "^0.18.1"
   }
 }

@@ -16,7 +16,7 @@
   - file to cache ……
   - recache time …… ()
   - strategy : staled while revalidate
-- keep ….. on indexDB in “article/object” format (2 tables) using “idb”  lib
+- keep ….. on indexDB in “article/object” format (2 tables) using “idb” lib
 - have app shortcut (click icon on screen to show shortcut)
 - have notification on “timer” feature (show noti + add badge on icon) <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon#updating_the_badge_in_the_background>
 - and song and make it controllable on mobile notification bar
@@ -42,7 +42,7 @@
   - vite + ts + tailwind
   - ci code
   - commitlint
-  - formatter (code +  tailwind)
+  - formatter (code + tailwind)
 - manifest (init and test)
 - service worker (init and test)
 
