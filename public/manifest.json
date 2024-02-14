@@ -13,20 +13,21 @@
   "theme_color": "#218746",
   "screenshots": [
     {
-      "src": "./screenshot-wide.png",
+      "src": "/screenshot-wide.png",
       "sizes": "2360x1640",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Wide Home screen"
     },
     {
-      "src": "./screenshot-narrow.png",
+      "src": "/screenshot-narrow.png",
       "sizes": "1290x2796",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Narrow Home screen"
     }
   ],
-  "start_url": "./",
+  "start_url": "/",
+  "scope": ".",
   "display": "standalone"
 }
