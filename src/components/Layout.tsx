@@ -1,9 +1,13 @@
 import { Outlet } from 'react-router-dom';
+import AppMenuBar from './AppMenuBar';
 
 function Layout() {
   return (
     <div className="h-screen w-screen">
-      <Outlet />
+      <AppMenuBar />
+      <div className="p-4">
+        <Outlet />
+      </div>
     </div>
   );
 }

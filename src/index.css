@@ -7,10 +7,10 @@
 }
 
 body {
-  @apply flex min-h-screen min-w-full place-items-center bg-white text-center text-gray-950 transition-colors duration-200 dark:bg-gray-900 dark:text-white;
+  @apply flex min-h-screen min-w-full place-items-center bg-background text-center text-gray-950 transition-colors duration-200 dark:bg-primary dark:text-white;
 }
 
-button {
-  @apply rounded-xl border border-gray-950 px-4 py-3 transition-colors duration-200 hover:bg-gray-700 dark:border-white hover:dark:bg-gray-300;
-  @apply aria-pressed:bg-gray-950 aria-pressed:text-white aria-pressed:dark:bg-white aria-pressed:dark:text-gray-950;
+.menubar-size {
+  height: 60px;
+  width: 100vw;
 }

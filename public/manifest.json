@@ -28,6 +28,6 @@
     }
   ],
   "start_url": "/",
-  "scope": ".",
+  "scope": "./app",
   "display": "standalone"
 }

@@ -14,7 +14,7 @@ function ThemeSwitcher() {
         <button
           type="button"
           role="button"
-          className="rounded-r-none"
+          className="rounded-xl rounded-r-none border border-primary p-2 aria-pressed:bg-gray-400 dark:border-white"
           aria-pressed={theme === Theme.LIGHT}
           onClick={() => setTheme(Theme.LIGHT)}
         >
@@ -23,7 +23,7 @@ function ThemeSwitcher() {
         <button
           type="button"
           role="button"
-          className="rounded-l-none"
+          className="rounded-xl rounded-l-none border border-primary p-2 aria-pressed:bg-gray-400 dark:border-white"
           aria-pressed={theme === Theme.DARK}
           onClick={() => setTheme(Theme.DARK)}
         >

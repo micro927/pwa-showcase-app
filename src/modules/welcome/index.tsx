@@ -1,13 +1,22 @@
 import ThemeSwitcher from '@/components/ThemeSwitcher';
+import { MAIN_ROUTE } from '@/constants/route';
+import { Link } from 'react-router-dom';
 
 function Welcome() {
   return (
     <div className="flex h-screen w-screen">
-      <div className="mx-auto px-24 py-6">
+      <div className="mx-auto px-12 py-6">
         <h1 font-bold>Welcome</h1>
         <p>to my pwa app</p>
+        <div className="py-3">
+          <Link to={MAIN_ROUTE.APP}>
+            <button className="rounded-xl border border-primary p-3 text-xl dark:border-white">
+              GO TO APPLICATION
+            </button>
+          </Link>
+        </div>
         <ThemeSwitcher />
-        <p className="p-5 text-sm">
+        <p className="py-2 text-sm">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vero
           est magnam aliquam, dignissimos quo eos maiores consequatur dolore
           odit amet nemo sed quod, ad quas, velit voluptate praesentium quam.

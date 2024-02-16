@@ -1,5 +1,5 @@
 import { THEME_STORAGE_KEY, Theme } from '@/constants/theme';
-import { ThemeContextType } from '@/types/theme';
+import { ThemeContextType } from '@/types/themeContext';
 import { ReactNode, createContext, useEffect, useState } from 'react';
 
 export const ThemeContext = createContext<ThemeContextType>({
