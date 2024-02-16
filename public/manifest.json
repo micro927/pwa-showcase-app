@@ -27,7 +27,7 @@
       "label": "Narrow Home screen"
     }
   ],
-  "start_url": "/",
+  "start_url": "/app",
   "scope": "./app",
   "display": "standalone"
 }
